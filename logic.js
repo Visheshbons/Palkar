@@ -1,7 +1,7 @@
 // JS file (logic.js)
 
 // Palkar array with Palkar words
-var English = ["Head", "Love", "Special", "Mum", "Father", "Door", "Stone", "Bin", "Home", "House", "Idiot", "Car", "Foot", "Hand", "Flower", "Glasses", "Mirror", "Light", "Dark", "Big", "Small", "Middle", "Sun", "Top", "Bottom", "Front", "Back", "Lot", "Little", "You", "A", "Half", "What", "This", "That", "Tail"];
+var Palkar = ["Dosko", "Prev", "Vishesh", "Amma", "Ba", "Kavad", "Gundo", "Kupothoti", "Ger", "Ger", "Piso", "Bundi", "Paai", "Hath", "Phool", "Adhum", "Adhum" "Dhivo", "Handhar", "Mato", "Nino", "Madhim", "Foon", "Uncho", "Kallo", "Somor", "Paskad", "Jukko", "Rovvo", "Thumi", "Wanti", "Hadhu", "Kayye", "Yelle", "Thelle", "Pisidi"];
 // English array with English translations
 var English = ["Head", "Love", "Special", "Mum", "Father", "Door", "Stone", "Bin", "Home", "House", "Idiot", "Car", "Foot", "Hand", "Flower", "Glasses", "Mirror", "Light", "Dark", "Big", "Small", "Middle", "Sun", "Top", "Bottom", "Front", "Back", "Lot", "Little", "You", "A", "Half", "What", "This", "That", "Tail"];
 
