@@ -1,9 +1,9 @@
 // JS file (logic.js)
 
 // Palkar array with Palkar words
-var Palkar = ["Dosko", "Prev", "Vishesh", "Amma", "Ba", "Kavad", "Gundo", "Kupothoti", "Ger", "Piso", "Bundi", "Paai", "Hath", "Phool", "Adhum", "Dhivo", "Handhar", "Mato", "Nino", "Madhim", "Foon", "Uncho", "Kallo", "Somor", "Paskad", "Jukko", "Rovvo or Wono", "Thumi", "Wanti", "Hadhu", "Kayye", "Yelle", "Thelle", "Pisidi"];
+var Palkar = ["Dosko", "Prev", "Vishesh", "Amma", "Ba", "Kavad", "Gundo", "Kupothoti", "Ger", "Piso", "Bundi", "Paai", "Hath", "Phool", "Adhum", "Dhivo", "Handhar", "Mato", "Nino", "Madhim", "Foon", "Uncho", "Kallo", "Somor", "Paskad", "Jukko", "Rovvo or Wono", "Thumi", "Wanti", "Hadhu", "Kayye", "Yelle", "Thelle", "Pisidi", "Chokad"];
 // English array with English translations
-var English = ["Head", "Love", "Special", "Mum", "Father", "Door", "Stone", "Bin", "Home or House", "Idiot", "Car", "Foot", "Hand", "Flower", "Glasses or Mirror", "Light", "Dark", "Big", "Small", "In the middle", "Sun", "On top", "On the bottom", "Front", "Back", "Lot", "Little", "You", "A", "Half", "What", "This", "That", "Tail"];
+var English = ["Head", "Love", "Special", "Mum", "Father", "Door", "Stone", "Bin", "Home or House", "Idiot", "Car", "Foot", "Hand", "Flower", "Glasses or Mirror", "Light", "Dark", "Big", "Small", "In the middle", "Sun", "On top", "On the bottom", "Front", "Back", "Lot", "Little", "You", "A", "Half", "What", "This", "That", "Tail", "Good"];
 
 // Loading translations...
 console.log("Loading translations...");
