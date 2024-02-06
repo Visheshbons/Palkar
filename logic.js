@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     // Function to update the translation dynamically
     function updateTranslation() {
-        translationOutput.textContent = ""; // Clear previous translation
+        translationOutput.innerHTML = ""; // Clear previous translation
         var inputText = EngPut.value.trim();
 
         if (inputText !== "") {
@@ -35,7 +35,10 @@ document.addEventListener("DOMContentLoaded", function() {
 
             if (index !== -1) {
                 // If found, display the corresponding English translation
-                translationOutput.textContent = "Translation: " + English[index];
+                var translation = document.createElement("span");
+                translation.textContent = "Translation: " + English[index];
+                translation.classList.add("translated"); // Add a class for styling
+                translationOutput.appendChild(translation);
             } else {
                 translationOutput.textContent = "Word not found in English dictionary.";
             }
@@ -58,32 +61,30 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 
-
-
-
-
-
 document.addEventListener("DOMContentLoaded", function() {
-    // Get the input element for translation from English to English
+    // Get the input element for translation from English to Palkar
     var PalPut = document.getElementById("EngToPal");
     // Get the element where the translation will be displayed
     var transOut = document.getElementById("transOut");
 
     // Function to update the translation dynamically
     function pdtTrnsltn() {
-        transOut.textContent = ""; // Clear previous translation
-        var imputText = PalPut.value.trim();
+        transOut.innerHTML = ""; // Clear previous translation
+        var inputText = PalPut.value.trim();
 
-        if (imputText !== "") {
+        if (inputText !== "") {
             // Autocapitalize the input text (capitalize the first letter)
-            var autoCapialize = imputText.charAt(0).toUpperCase() + imputText.slice(1);
+            var autoCapitalize = inputText.charAt(0).toUpperCase() + inputText.slice(1);
 
             // Find the index of the autocapitalized input word in the English array
-            var imdex = English.indexOf(autoCapialize);
+            var index = English.indexOf(autoCapitalize);
 
-            if (imdex !== -1) {
-                // If found, display the corresponding English translation
-                transOut.textContent = "Translation: " + Palkar[imdex];
+            if (index !== -1) {
+                // If found, display the corresponding Palkar translation
+                var translation = document.createElement("span");
+                translation.textContent = "Translation: " + Palkar[index];
+                translation.classList.add("translated"); // Add a class for styling
+                transOut.appendChild(translation);
             } else {
                 transOut.textContent = "Word not found in Palkar dictionary.";
             }
