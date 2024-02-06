@@ -37,7 +37,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 // If found, display the corresponding English translation
                 translationOutput.textContent = "Translation: " + English[index];
             } else {
-                translationOutput.textContent = "Word not found in Palkar dictionary.";
+                translationOutput.textContent = "Word not found in English dictionary.";
             }
         } else {
             translationOutput.textContent = "Please enter a word to translate.";
@@ -85,7 +85,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 // If found, display the corresponding English translation
                 transOut.textContent = "Translation: " + Palkar[imdex];
             } else {
-                transOut.textContent = "Word not found in English dictionary.";
+                transOut.textContent = "Word not found in Palkar dictionary.";
             }
         } else {
             transOut.textContent = "Please enter a word to translate.";
