@@ -40,7 +40,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 translation.classList.add("translated"); // Add a class for styling
                 translationOutput.appendChild(translation);
             } else {
-                translationOutput.textContent = "Word not found in English dictionary.";
+                translationOutput.textContent = "Word not found in Palkar dictionary.";
             }
         } else {
             translationOutput.textContent = "Please enter a word to translate.";
@@ -86,7 +86,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 translation.classList.add("translated"); // Add a class for styling
                 transOut.appendChild(translation);
             } else {
-                transOut.textContent = "Word not found in Palkar dictionary.";
+                transOut.textContent = "Word not found in English dictionary.";
             }
         } else {
             transOut.textContent = "Please enter a word to translate.";
